@@ -1,0 +1,42 @@
+<?php
+    $title = "MAPA";
+    $desenvolvedor = "Wellington Silva";
+
+    $menu = array(
+        0 => array('id'=>'1', 
+            'titulo'=>'Picadinho', 
+            'autor'=>'R$15,99', 
+            'data'=>'2022-05-12', 
+            'descricao'=>'Um delicioso prato feito com carne picada (Patinho), temperado com alho, pimenta do reino e especiarias
+            Acompanha Arroz, feijão e salada.',
+            'imagem'=>'img/indice.jpg', 
+            'title_img'=>'Picadinho'),
+        1 => array('id'=>'2', 
+            'titulo'=>'Filé de Frango', 
+            'autor'=>'R$14,50', 
+            'data'=>'2022-05-12', 
+            'descricao'=>'Peito de franco cortado em filé temperado, gredalhado na chapa , acompanha arroz, feijão e legumes aldente .',
+            'imagem'=>'img/filefrg.jpg', 
+            'title_img'=>'Filé de frango'),
+        2 => array('id'=>'3', 
+            'titulo'=>'Calabresa', 
+            'autor'=>'R$14,50', 
+            'data'=>'2022-05-12', 
+            'descricao'=>'Linguiça tipo calabresa cortada em rodelas frita e acebolada, acompanha arroz, feijão e batata frita ou salada.',
+            'imagem'=>'img/calab.jpg', 
+            'title_img'=>'Calabresa'),
+        3 => array('id'=>'4', 
+            'titulo'=>'Filé de Peixe', 
+            'autor'=>'R$14,99', 
+            'data'=>'2022-05-12', 
+            'descricao'=>'Filé de peixe empanado(merluza) ao molho branco, vai acompanhado de arroz, feijão, batata frita ou salada.',
+            'imagem'=>'img/fpeixe.jpg', 
+            'title_img'=>'Filé de peixe'),
+        4 => array('id'=>'5', 
+            'titulo'=>'Feijoada Completa', 
+            'autor'=>'R$40,00', 
+            'data'=>'2022-05-12', 
+            'descricao'=>'Esta receita foi criada pela cozinheira Jaciana Fonseca, do Sabor Real Restaurante Grill, que fica em São Paulo - SP. Em 2016, o prato venceu o concurso Melhores Quilos do Brasil em 2º lugar na sua região.',
+            'imagem'=>'img/node.jpg', 
+            'title_img'=>'deliciosa feijoada'),
+    );
